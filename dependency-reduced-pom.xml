@@ -19,7 +19,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>se233.project2.JarLauncher</mainClass>
+                  <mainClass>se233.project2.view.JarLauncher</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -42,7 +42,7 @@
           <execution>
             <id>default-cli</id>
             <configuration>
-              <mainClass>se233.project2/se233.project2.JarLauncher</mainClass>
+              <mainClass>se233.project2/se233.project2.view.JarLauncher</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>

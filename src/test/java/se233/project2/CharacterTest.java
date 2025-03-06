@@ -3,10 +3,12 @@ package se233.project2;
 import javafx.scene.input.KeyCode;
 import org.junit.Before;
 import org.junit.Test;
+import se233.project2.model.Character;
+
 import static org.junit.Assert.*;
 
 public class CharacterTest {
-    private Character character;
+    private se233.project2.model.Character character;
 
     @Before
     public void setup(){
